@@ -7,7 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<jsp:useBean id="student" class="java.iuh.fit.se.tuan03.model.Student" scope="request" />
+<jsp:useBean id="student" class="iuh.fit.se.tuan03.model.Student" scope="request" />
 <jsp:setProperty name="student" property="*" />
 
 <jsp:forward page="displayStudent.jsp" />

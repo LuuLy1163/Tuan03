@@ -16,7 +16,7 @@ public class Student {
     private String country;
     private String[] hobbies;
     private String otherHobby;
-
+    private String birthdate;
     // Qualification
     private String board1, percent1, year1;
     private String board2, percent2, year2;
@@ -250,5 +250,18 @@ public class Student {
     public void setCourse(String course) {
         this.course = course;
     }
+
+
+
+    public String getBirthdate() {
+        return birthdate;
+    }
+
+    public void setBirthdate(String birthdate) {
+        this.birthdate = birthdate;
+    }
+
+
+
 }
 
